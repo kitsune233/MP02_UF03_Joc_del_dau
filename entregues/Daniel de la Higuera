@@ -1,0 +1,19 @@
+#joc del dau
+
+prova del joc del dau
+
+
+create function dbo.mElsQuedo (nJugador int, punts int)
+
+returns bit
+
+DECLARE @counter smallint;
+SET @counter = 1;
+WHILE @counter < 100
+   BEGIN
+      SELECT RAND() Random_Number
+      SET @counter = @counter + 1
+	  return RAND
+   END;
+GO
+
