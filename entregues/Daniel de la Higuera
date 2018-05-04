@@ -2,7 +2,7 @@
 
 prova del joc del dau
 
-
+'''
 create function dbo.mElsQuedo (@nJugador int, @punts int)
 returns bit
 AS BEGIN
@@ -19,3 +19,5 @@ end
 return @si	
    END;
 GO
+
+'''
