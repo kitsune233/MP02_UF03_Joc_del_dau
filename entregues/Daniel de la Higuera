@@ -1,0 +1,21 @@
+#joc del dau
+
+prova del joc del dau
+
+
+create function dbo.mElsQuedo (@nJugador int, @punts int)
+returns bit
+AS BEGIN
+declare @si bit
+	if @punts>3
+	begin
+    set  @si=1;
+	return @si
+	end
+else
+begin
+set @si=0;
+end
+return @si	
+   END;
+GO
